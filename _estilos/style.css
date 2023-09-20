@@ -1,0 +1,158 @@
+@charset "UTF-08"
+{}
+body{
+	
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+	color: #ffffff;
+	display: flex;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: hover;
+}
+
+
+p{
+	text-align: justify;	
+	text-indent: 50px;
+}
+
+
+div#interface{
+	width: 100%;
+	margin: -20px auto 0px auto;
+	padding: 10px;
+}
+
+nav#nav {
+	display: block;
+}
+
+nav#nav ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 20px;
+	left: 700px;
+}
+
+nav#nav li {
+	display: inline-block;
+	padding: 10px;
+	margin: 3px;
+	transition: background-color 1s;
+}
+
+nav#nav li:hover{
+	color: #ff0000;
+}
+
+nav#nav h1 {
+	display: none;
+}
+
+.menu {
+	display: flex;
+	flex-grow: 1;
+	background-color: #111111;
+}
+
+.menu h1 {
+	padding: 10px;
+	color: #ffffff;
+}
+
+.conteudo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #6e6e6e;
+	margin-right: 5%;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	padding: 10px;
+	flex-grow: 1;
+}
+
+.conteudo h3 {
+	padding: 5px;
+	background-color: #202020;
+}
+
+ul#img {
+	list-style: none;
+	width: 80%;
+	padding: 50px;	
+	margin: 0px auto;
+}
+
+ul#img li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 3px solid white;
+	transform: all .3s ease-in;
+}
+
+ul#img li:hover{
+	transform: scale(1.5);
+}	
+
+ul#img li#a {
+	background-image: url('../_img/opm.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px auto;
+	background-color: #ffffff;
+}
+
+ul#img li#a:hover {	
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+}
+
+ul#img li#b {
+	background: url('../_img/mashle.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px auto;
+	background-color: #ffffff;
+}
+
+ul#img li#b:hover {	
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+}
+
+ul#img li#c {
+	background: url('../_img/kengan.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px auto;
+	background-color: #ffffff;
+}
+
+ul#img li#c:hover {	
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+}
+
+ul#img li#d {
+	background: url('../_img/tonotdie.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px auto;
+	background-color: #ffffff;
+}
+
+ul#img li#d:hover {	
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+}
